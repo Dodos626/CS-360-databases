@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch DB_Connection",
+            "request": "launch",
+            "mainClass": "database.DB_Connection",
+            "projectName": "HY-360_b1bb9e32"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fill_database",
+            "request": "launch",
+            "mainClass": "database.Fill_database",
+            "projectName": "HY-360_b1bb9e32"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "database.classes.Test",
+            "projectName": "HY-360_b1bb9e32"
+        },
+        {
+            "type": "java",
+            "name": "Launch TableExample",
+            "request": "launch",
+            "mainClass": "swing.TableExample",
+            "projectName": "HY-360_b1bb9e32"
+        },
+        {
+            "type": "java",
+            "name": "Launch mainComponent",
+            "request": "launch",
+            "mainClass": "swing.mainComponent",
+            "projectName": "HY-360_b1bb9e32"
+        }
+    ]
+}
